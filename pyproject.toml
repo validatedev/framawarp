@@ -1,7 +1,7 @@
 [project]
-name = "framawarp"
+name = "framawrap"
 version = "0.1.0"
-description = "Image manipulations on steroids"
+description = "Image manipulation on steroids"
 authors = [{ name = "Mert Can Demir", email = "validatedev@gmail.com" }]
 dependencies = ["numpy>=1.24.4", "torch>=2.0.0", "opencv-python>=4.8.1.78"]
 requires-python = ">=3.8"
