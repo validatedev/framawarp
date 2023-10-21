@@ -1,5 +1,5 @@
 [project]
-name = "framawrap"
+name = "framawarp"
 version = "0.1.0"
 description = "Image manipulation on steroids"
 authors = [{ name = "Mert Can Demir", email = "validatedev@gmail.com" }]

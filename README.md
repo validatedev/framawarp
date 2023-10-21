@@ -1,4 +1,4 @@
-# framawrap
+# framawarp
 
 <div align="center">
   <p>
@@ -13,14 +13,14 @@
 
 ## Description
 
-`framawrap` is a Python library designed to simplify image manipulation tasks in computer vision projects. It provides a unified interface for wrapping NumPy arrays and PyTorch tensors, making it easy to work with images and perform operations such as color space conversions.
+`framawarp` is a Python library designed to simplify image manipulation tasks in computer vision projects. It provides a unified interface for wrapping NumPy arrays and PyTorch tensors, making it easy to work with images and perform operations such as color space conversions.
 
 ## Installation
 
-To install framawrap, run the following command:
+To install framawarp, run the following command:
 
 ```bash
-pip install framawrap
+pip install framawarp
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ You can create a `Frame` object by wrapping a NumPy array or a PyTorch tensor:
 
 ```python
 import numpy as np
-from framawrap import Frame
+from framawarp import Frame
 
 image = np.random.rand(256, 256, 3)  # Example NumPy array
 frame = Frame(image)
@@ -39,10 +39,10 @@ frame = Frame(image)
 
 ### Manipulating Color Spaces
 
-framawrap makes it easy to convert between different color spaces:
+framawarp makes it easy to convert between different color spaces:
 
 ```python
-from framawrap import FrameColorSpace
+from framawarp import FrameColorSpace
 
 # Convert from RGB to BGR
 frame_bgr = frame.convert_color_space(FrameColorSpace.BGR)
