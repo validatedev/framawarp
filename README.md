@@ -45,10 +45,10 @@ framawarp makes it easy to convert between different color spaces:
 from framawarp import FrameColorSpace
 
 # Convert from RGB to BGR
-frame_bgr = frame.convert_color_space(FrameColorSpace.BGR)
+frame_bgr = frame.cast_color_space(FrameColorSpace.BGR)
 
-# Convert from RGB to HSV
-frame_hsv = frame.convert_color_space(FrameColorSpace.HSV)
+# Convert from RGB to HSV with new frame
+frame_hsv = frame.cast_color_space(FrameColorSpace.HSV, inplace=False)
 ```
 
 ## Contributing
